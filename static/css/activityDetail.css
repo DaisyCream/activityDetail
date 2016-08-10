@@ -17,33 +17,33 @@ body{
 #title{
     position: relative;
     color: #413f3f;
-    font-size: 44px;/*px*/
+    font-size: 40px;/*px*/
 }
 
 #userName{
     position: relative;
     font-size: 28px;/*px*/
     color: #6b6b6b;
-    margin-top: 0.3rem;/*px*/
+    margin-top: 0.3rem;
 }
 
 
 #content-text{
     position: relative;
     font-size: 25px;/*px*/
-    margin-top: 0.27rem;/*px*/
+    margin-top: 0.27rem;
     color: #413f3f;
 }
 
 
 #userHead{
     position: absolute;
-    width: 1.6rem;/*px*/
-    height: 1.6rem;/*px*/
-    border-radius: 1.6rem;/*px*/
+    width: 1.6rem;
+    height: 1.6rem;
+    border-radius: 1.6rem;
     /*border: 1px solid #413f3f;*/
-    top: 0.2rem;/*px*/
-    right: 1.1rem;/*px*/
+    top: 0.2rem;
+    right: 1.1rem;
     background-image: url(../../static/img/head.png);
     background-size: 100%;
 }
@@ -51,10 +51,10 @@ body{
 
 .msg{
     position: relative;
-    height: 70px;/*px*/
-    padding: 0rem 0.53rem 0rem 0.53rem;/*px*/
+    height: 70px;
+    padding: 0rem 0.53rem 0rem 0.53rem;
     /*border: 1px solid #413f3f;*/
-    line-height: 70px;/*px*/
+    line-height: 70px;
     margin-top: 0.27rem;
     box-shadow: 1px 1px 6px #acacac;
     background-color: #ffffff;
@@ -63,19 +63,19 @@ body{
 
 .tipImg{
     position: relative;
-    width: 0.53rem;/*px*/
-    height: 0.53rem;/*px*/
+    width: 0.53rem;
+    height: 0.53rem;
     background-size: 100%;
     display: inline-block;
     /*border: 1px solid #413f3f;*/
-    top: 0.13rem;/*px*/
+    top: 0.13rem;
 }
 
 .information{
     position: relative;
     font-size: 26px;/*px*/
     /*border: 1px solid #413f3f;*/
-    margin-left: 0.2rem;/*px*/
+    margin-left: 0.2rem;
 }
 
 .go{
@@ -105,18 +105,18 @@ body{
 
 #participants {
     position: relative;
-    height: 1.06rem;/*px*/
-    padding-top: 0.13rem;/*px*/
-    padding-bottom: 0.13rem;/*px*/
+    height: 1.06rem;
+    padding-top: 0.13rem;
+    padding-bottom: 0.13rem;
     overflow: hidden;
 }
 
 #participants-head{
     position: relative;
-    width: 8rem;/*px*/
+    width: 8rem;
     /*height: 80px;*/
     /*border: 1px solid #413f3f;*/
-    left: -0.2rem;/*px*/
+    left: -0.2rem;
     top: 0.05rem;
 }
 
@@ -151,11 +151,43 @@ body{
 
 #comment-list{
     position: relative;
-    height: auto;
+    height: 2.67rem;
+    padding: 0.2rem 0.53rem 0.2rem 0.53rem;
     font-size: 26px;/*px*/
+    background-color: #ffffff;
+    overflow: hidden;
+    margin-top: 0.27rem;
+    color: #5e5e5e;
+    z-index: 2;
 }
 
 .comment{
     position: relative;
-    font-size: 16px;/*px*/
+    font-size: 26px;/*px*/
+    line-height: 36px;
+}
+
+.comment-name{
+    color: #5eb6d4
+
+}
+
+.comment-time{
+    position: relative;
+    color: #b1b1b1;
+    font-size: 22px;/*px*/
+    margin-left: 20px;
+}
+
+#more-comment{
+    width: 100%;
+    position: relative;
+    font-size: 26px;/*px*/
+    color: #b1b1b1;
+    text-align: center;
+    background-color: #ffffff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: 0px 1px 6px #acacac;
+    top: -2px;
 }
