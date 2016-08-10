@@ -129,7 +129,7 @@
         methods: {
             showParticipants: function(e){
                 var target = e.target;
-                if(this.headClickCount%2==0){
+                if(this.headClickCount%2!=0){
                     target.parentNode.style.height = "auto";
                 }else{
                     target.parentNode.style.height = "1.06rem";
@@ -141,7 +141,7 @@
 
             showComments: function(){
                 var target = document.getElementById('comment-list');
-                if(this.commentClickCount%2==0){
+                if(this.commentClickCount%2!=0){
                     target.style.height = "auto";
                 }else{
                     target.style.height = "2.67rem";
