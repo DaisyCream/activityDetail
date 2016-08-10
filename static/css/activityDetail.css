@@ -8,7 +8,7 @@ body{
 
 #content{
     position: relative;
-    padding: 40px 80px 40px 80px;/*px*/
+    padding: 40px 60px 40px 60px;/*px*/
     background-color: #ffffff;
     margin-top: 10px;/*px*/
 }
@@ -21,7 +21,7 @@ body{
 
 #userName{
     position: relative;
-    font-size: 24px;/*px*/
+    font-size: 28px;/*px*/
     color: #6b6b6b;
     margin-top: 20px;/*px*/
 }
@@ -29,8 +29,8 @@ body{
 
 #content-text{
     position: relative;
-    font-size: 24px;/*px*/
-    margin-top: 20px;/*px*/
+    font-size: 24px;
+    margin-top: 20px;
     color: #413f3f;
 }
 
@@ -42,12 +42,44 @@ body{
     border-radius: 60px;/*px*/
     /*border: 1px solid #413f3f;*/
     top: 20px;/*px*/
-    right: 140px;/*px*/
+    right: 100px;/*px*/
     background-image: url(../../static/img/head.png);
     background-size: 100%;
 }
 
-#phoneNumber{
 
+
+
+.tipImg{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background-size: 100%;
+    display: inline-block;
+}
+
+.information{
+    position: relative;
+    font-size: 30px;/*px*/
+
+}
+
+.go{
+
+}
+
+#phoneNumber{
+    height: 60px;
+    position: relative;
+    padding: 0px 60px 0px 60px;
+
+}
+
+#phoneNumber .tipImg{
+    background-image: url(../../static/img/phone.png);
+}
+
+#phoneNumber .information{
+    position: relative;
 
 }
