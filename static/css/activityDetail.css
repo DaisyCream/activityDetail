@@ -8,7 +8,7 @@ body{
 
 #content{
     position: relative;
-    padding: 20px 60px 20px 60px;/*px*/
+    padding: 40px 80px 40px 80px;/*px*/
     background-color: #ffffff;
     margin-top: 10px;/*px*/
 }
@@ -21,7 +21,7 @@ body{
 
 #userName{
     position: relative;
-    font-size: 28px;/*px*/
+    font-size: 24px;/*px*/
     color: #6b6b6b;
     margin-top: 20px;/*px*/
 }
@@ -29,7 +29,20 @@ body{
 
 #content-text{
     position: relative;
-    font-size: 26px;/*px*/
+    font-size: 24px;/*px*/
     margin-top: 20px;/*px*/
     color: #413f3f;
+}
+
+
+#userHead{
+    position: absolute;
+    width: 120px;/*px*/
+    height: 120px;/*px*/
+    border-radius: 60px;/*px*/
+    border: 1px solid #413f3f;
+    top: 20px;/*px*/
+    right: 140px;/*px*/
+    background-image: url(../../static/img/head.png);
+    background-size: 100%;
 }
