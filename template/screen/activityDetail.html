@@ -5,6 +5,7 @@
     <title>活动详情</title>
     <meta name="flexible" content="initial-dpr=2,maximum-dpr=2" />
     <script src="http://g.tbcdn.cn/mtb/lib-flexible/0.3.4/??flexible_css.js,flexible.js"></script>
+    <script src="../../static/js/vue.min.js"></script>
     <link rel="stylesheet" href="../../static/css/activityDetail.css">
 </head>
 <body>
@@ -35,9 +36,25 @@
     <div class="msg" id="participants">
         <ul id="participants-head">
             <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+
+            <li></li>
+            <li></li>
+            <li></li>
         </ul>
-        <div id="numbers"></div>
-        <div id="more-btn"></div>
+        <div id="numbers">12/15</div>
+        <div id="more-btn" @click="showParticipants">展开</div>
     </div>
     <div id="comment-list">
         <div class="comment">
@@ -63,3 +80,27 @@
     </div>
 </body>
 </html>
+<script type="text/javascript">
+    new Vue({
+        el: "body",
+        data: {
+            clickCount:1
+        },
+        methods: {
+            showParticipants: function(e){
+                var target = e.target;
+                if(this.clickCount%2==0){
+                    target.parentNode.style.height = "auto";
+                }else{
+                    target.parentNode.style.height = "80px";
+                }
+                this.clickCount++;
+
+
+            }
+        }
+
+
+    });
+
+</script>

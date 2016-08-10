@@ -91,19 +91,61 @@ body{
 }
 
 #phoneNumber .tipImg{
-    background-image: url(../../static/img/phone.png);
+    background-image: url(../img/phone.png);
 }
 
 
 #time .tipImg{
-    background-image: url(../../static/img/time.png);
+    background-image: url(../img/time.png);
 }
 
-#location .tipImg{
-    background-image: url(../../static/img/location.png);
+#location .tipImg {
+    background-image: url(../img/location.png);
 }
 
-#participants{
+#participants {
+    position: relative;
+    height: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    overflow: hidden;
+}
+
+#participants-head{
+    position: relative;
+    width: 570px;
+    /*height: 80px;*/
+    /*border: 1px solid #413f3f;*/
+    left: -20px;
+}
+
+#participants-head li{
+    position: relative;
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+    display: inline-block;
+    margin-left: 20px;
+    background-image: url(../img/head.png);
+    background-size: 100%;
+    margin-top: 5px;
+}
 
 
+
+#numbers{
+    position: absolute;
+    font-size: 32px;
+    /*top: 50%;*/
+    /*margin-top: -50px;*/
+    bottom: 30px;
+    right: 30px;
+}
+
+#more-btn{
+    position: absolute;
+    font-size: 24px;
+    right: 60px;
+    bottom: -5px;
+    color: #5eb6d4;
 }
