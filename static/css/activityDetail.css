@@ -75,7 +75,7 @@ body{
     position: relative;
     font-size: 26px;/*px*/
     /*border: 1px solid #413f3f;*/
-    margin-left: 30px;
+    margin-left: 15px;
 }
 
 .go{
@@ -104,6 +104,6 @@ body{
 }
 
 #participants{
-    
+
 
 }
