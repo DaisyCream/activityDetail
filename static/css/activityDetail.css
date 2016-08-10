@@ -1,0 +1,35 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    /*font-family: PingFangSC-Regular;*/
+    background-color: #ededed;
+    overflow: hidden;
+}
+
+#content{
+    position: relative;
+    padding: 20px 60px 20px 60px;/*px*/
+    background-color: #ffffff;
+    margin-top: 10px;/*px*/
+}
+
+#title{
+    position: relative;
+    color: #413f3f;
+    font-size: 48px;/*px*/
+}
+
+#userName{
+    position: relative;
+    font-size: 28px;/*px*/
+    color: #6b6b6b;
+    margin-top: 20px;/*px*/
+}
+
+
+#content-text{
+    position: relative;
+    font-size: 26px;/*px*/
+    margin-top: 20px;/*px*/
+    color: #413f3f;
+}
