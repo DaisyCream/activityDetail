@@ -8,7 +8,7 @@ body{
 
 #content{
     position: relative;
-    padding: 0.53rem 0.8rem 0.53rem 0.8rem;/*px*/
+    padding: 0.4rem 0.8rem 0.4rem 0.8rem;/*px*/
     background-color: #ffffff;
     margin-top: 0.21rem;/*px*/
     box-shadow: 1px 1px 6px #acacac;
@@ -24,7 +24,7 @@ body{
     position: relative;
     font-size: 28px;/*px*/
     color: #6b6b6b;
-    margin-top: 0.4rem;/*px*/
+    margin-top: 0.3rem;/*px*/
 }
 
 
@@ -42,7 +42,7 @@ body{
     height: 1.6rem;/*px*/
     border-radius: 1.6rem;/*px*/
     /*border: 1px solid #413f3f;*/
-    top: 0.27rem;/*px*/
+    top: 0.2rem;/*px*/
     right: 1.1rem;/*px*/
     background-image: url(../../static/img/head.png);
     background-size: 100%;
