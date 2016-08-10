@@ -56,21 +56,24 @@
         <div id="numbers">12/15</div>
         <div id="more-btn" @click="showParticipants">展开</div>
     </div>
-    <div id="comment-list">
+    <div id="comment-list" class="msg">
         <div class="comment">
-            <span class="comment-name"></span>
-            <span class="comment-text"></span>
-            <span class="comment-time"></span>
+            <span class="comment-name">daisycream</span>
+            <span>:</span>
+            <span class="comment-text">你是谁？</span>
+            <span class="comment-time">8月2日 12：00</span>
         </div>
         <div class="comment">
-            <span class="comment-name"></span>
-            <span class="comment-text"></span>
-            <span class="comment-time"></span>
+            <span class="comment-name">哇哈哈哈</span>
+            <span>:</span>
+            <span class="comment-text">我是你大爷哇哈哈</span>
+            <span class="comment-time">8月2日 12：20</span>
         </div>
         <div class="comment">
-            <span class="comment-name"></span>
-            <span class="comment-text"></span>
-            <span class="comment-time"></span>
+            <span class="comment-name">daisycream</span>
+            <span>:</span>
+            <span class="comment-text">哈哈哈哈哈哈，傻逼</span>
+            <span class="comment-time">8月2日 13：00</span>
         </div>
         <div id="more-comment">展开更多评论</div>
     </div>
@@ -92,7 +95,7 @@
                 if(this.clickCount%2==0){
                     target.parentNode.style.height = "auto";
                 }else{
-                    target.parentNode.style.height = "80px";
+                    target.parentNode.style.height = "1.06rem";
                 }
                 this.clickCount++;
 
