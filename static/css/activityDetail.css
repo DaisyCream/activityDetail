@@ -87,7 +87,7 @@ body{
     background-image: url(../../static/img/go.png);
     display: inline-block;
     /*border: 1px solid #413f3f;*/
-    top: 0.2rem;
+    top: 0.25rem;
 }
 
 #phoneNumber .tipImg{
