@@ -17,7 +17,7 @@ body{
 #title{
     position: relative;
     color: #413f3f;
-    font-size: 40px;/*px*/
+    font-size: 44px;/*px*/
 }
 
 #userName{
@@ -31,7 +31,7 @@ body{
 #content-text{
     position: relative;
     font-size: 25px;/*px*/
-    margin-top: 0.27rem;
+    margin-top: 0.2rem;
     color: #413f3f;
 }
 
@@ -105,9 +105,9 @@ body{
 
 #participants {
     position: relative;
-    height: 1.06rem;
-    padding-top: 0.13rem;
-    padding-bottom: 0.13rem;
+    height: 80px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     overflow: hidden;
 }
 
@@ -190,4 +190,16 @@ body{
     padding-bottom: 20px;
     box-shadow: 0px 1px 6px #acacac;
     top: -2px;
+}
+
+#commit{
+
+}
+
+#first-btn{
+
+}
+
+#second-btn{
+
 }
