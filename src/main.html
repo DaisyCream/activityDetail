@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>NAME Main</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="format-detection" content="telephone=no,address=no,email=no">
+
+  <link rel="stylesheet" href="//g.alicdn.com/mtb/??lib-flexible/0.3.2/flexible.css" />
+  <script src="//g.alicdn.com/mtb/??lib-flexible/0.3.2/flexible.js"></script>
+  <script keeplive src="//g.alicdn.com/mtb/??lib-httpurl/1.3.2/httpurl.js,lib-img/0.2.21/img.js"></script>
+
+  <script src="../node_modules/vue/dist/vue.min.js"></script>
+  <script src="../lib/vue-src.js"></script>
+
+  <script src="../dist/main.js"></script>
+</head>
+<body>
+  <div id="app"></div>
+
+  <!-- start: for mt template -->
+  <script data-mt-variable="data">
+    var data = {
+      name: 'One-Request'
+    }
+  </script>
+  <script>
+    addEventListener('DOMContentLoaded', function () {
+      app.loadData(data)
+    })
+  </script>
+  <!-- end: for mt template -->
+</body>
+</html>
