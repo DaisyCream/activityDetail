@@ -619,7 +619,7 @@
 	
 	
 	// module
-	exports.push([module.id, "#phoneNumber .tipImg[_v-c118997e] {\n  background-image: url(" + __webpack_require__(19) + ");\n}", "", {"version":3,"sources":["/./<input css 3>"],"names":[],"mappings":"AAAA;EACE,gDAA2C;CAC5C","file":"phoneNumber.vue","sourcesContent":["#phoneNumber .tipImg {\n  background-image: url(../images/phone.png);\n}"],"sourceRoot":"webpack://"}]);
+	exports.push([module.id, "#phoneNumber .tipImg[_v-c118997e] {\n  background-image: url(" + __webpack_require__(19) + ");\n}", "", {"version":3,"sources":["/./<input css 5>"],"names":[],"mappings":"AAAA;EACE,gDAA2C;CAC5C","file":"phoneNumber.vue","sourcesContent":["#phoneNumber .tipImg {\n  background-image: url(../images/phone.png);\n}"],"sourceRoot":"webpack://"}]);
 	
 	// exports
 
@@ -719,7 +719,7 @@
 	
 	
 	// module
-	exports.push([module.id, "#time .tipImg[_v-1ca11553] {\n  background-image: url(" + __webpack_require__(25) + ");\n}", "", {"version":3,"sources":["/./<input css 6>"],"names":[],"mappings":"AAAA;EACE,gDAA0C;CAC3C","file":"time.vue","sourcesContent":["#time .tipImg {\n  background-image: url(../images/time.png);\n}"],"sourceRoot":"webpack://"}]);
+	exports.push([module.id, "#time .tipImg[_v-1ca11553] {\n  background-image: url(" + __webpack_require__(25) + ");\n}", "", {"version":3,"sources":["/./<input css 4>"],"names":[],"mappings":"AAAA;EACE,gDAA0C;CAC3C","file":"time.vue","sourcesContent":["#time .tipImg {\n  background-image: url(../images/time.png);\n}"],"sourceRoot":"webpack://"}]);
 	
 	// exports
 
@@ -819,7 +819,7 @@
 	
 	
 	// module
-	exports.push([module.id, "#location .tipImg[_v-22b8c73b] {\n  background-image: url(" + __webpack_require__(31) + ");\n}", "", {"version":3,"sources":["/./<input css 5>"],"names":[],"mappings":"AAAA;EACE,gDAA8C;CAC/C","file":"location.vue","sourcesContent":["#location .tipImg {\n  background-image: url(../images/location.png);\n}"],"sourceRoot":"webpack://"}]);
+	exports.push([module.id, "#location .tipImg[_v-22b8c73b] {\n  background-image: url(" + __webpack_require__(31) + ");\n}", "", {"version":3,"sources":["/./<input css 3>"],"names":[],"mappings":"AAAA;EACE,gDAA8C;CAC/C","file":"location.vue","sourcesContent":["#location .tipImg {\n  background-image: url(../images/location.png);\n}"],"sourceRoot":"webpack://"}]);
 	
 	// exports
 
@@ -919,7 +919,7 @@
 	
 	
 	// module
-	exports.push([module.id, "#participants[_v-30dfcaa6] {\n  position: relative;\n  height: 1.066667rem;\n  padding-top: 0.133333rem;\n  padding-bottom: 0.133333rem;\n  overflow: hidden;\n}\n\n#participants-head[_v-30dfcaa6] {\n  position: relative;\n  width: 8rem;\n  /*height: 80px;*/\n  /*border: 1px solid #413f3f;*/\n  left: -0.2rem;\n  top: 0.05rem;\n}\n\n#participants-head li[_v-30dfcaa6] {\n  position: relative;\n  width: 0.933333rem;\n  height: 0.933333rem;\n  border-radius: 0.466667rem;\n  display: inline-block;\n  margin-left: 0.26rem;\n  background-image: url(" + __webpack_require__(13) + ");\n  background-size: 100%;\n}\n\n#numbers[_v-30dfcaa6] {\n  position: absolute;\n  bottom: 0.4rem;\n  right: 0.4rem;\n}\n\n[data-dpr=\"1\"] #numbers[_v-30dfcaa6] {\n  font-size: 16px;\n}\n\n[data-dpr=\"2\"] #numbers[_v-30dfcaa6] {\n  font-size: 32px;\n}\n\n[data-dpr=\"3\"] #numbers[_v-30dfcaa6] {\n  font-size: 48px;\n}\n\n#more-btn[_v-30dfcaa6] {\n  position: absolute;\n  right: 0.8rem;\n  bottom: -0.14rem;\n  color: #5eb6d4;\n}\n\n[data-dpr=\"1\"] #more-btn[_v-30dfcaa6] {\n  font-size: 12px;\n}\n\n[data-dpr=\"2\"] #more-btn[_v-30dfcaa6] {\n  font-size: 24px;\n}\n\n[data-dpr=\"3\"] #more-btn[_v-30dfcaa6] {\n  font-size: 36px;\n}", "", {"version":3,"sources":["/./<input css 4>"],"names":[],"mappings":"AAAA;EACE,mBAAmB;EACnB,oBAAoB;EACpB,yBAAyB;EACzB,4BAA4B;EAC5B,iBAAiB;CAClB;;AAED;EACE,mBAAmB;EACnB,YAAY;EACZ,iBAAiB;EACjB,8BAA8B;EAC9B,cAAc;EACd,aAAa;CACd;;AAED;EACE,mBAAmB;EACnB,mBAAmB;EACnB,oBAAoB;EACpB,2BAA2B;EAC3B,sBAAsB;EACtB,qBAAqB;EACrB,gDAA0C;EAC1C,sBAAsB;CACvB;;AAED;EACE,mBAAmB;EACnB,eAAe;EACf,cAAc;CACf;;AAED;EACE,gBAAgB;CACjB;;AAED;EACE,gBAAgB;CACjB;;AAED;EACE,gBAAgB;CACjB;;AAED;EACE,mBAAmB;EACnB,cAAc;EACd,iBAAiB;EACjB,eAAe;CAChB;;AAED;EACE,gBAAgB;CACjB;;AAED;EACE,gBAAgB;CACjB;;AAED;EACE,gBAAgB;CACjB","file":"participants.vue","sourcesContent":["#participants {\n  position: relative;\n  height: 1.066667rem;\n  padding-top: 0.133333rem;\n  padding-bottom: 0.133333rem;\n  overflow: hidden;\n}\n\n#participants-head {\n  position: relative;\n  width: 8rem;\n  /*height: 80px;*/\n  /*border: 1px solid #413f3f;*/\n  left: -0.2rem;\n  top: 0.05rem;\n}\n\n#participants-head li {\n  position: relative;\n  width: 0.933333rem;\n  height: 0.933333rem;\n  border-radius: 0.466667rem;\n  display: inline-block;\n  margin-left: 0.26rem;\n  background-image: url(../images/head.png);\n  background-size: 100%;\n}\n\n#numbers {\n  position: absolute;\n  bottom: 0.4rem;\n  right: 0.4rem;\n}\n\n[data-dpr=\"1\"] #numbers {\n  font-size: 16px;\n}\n\n[data-dpr=\"2\"] #numbers {\n  font-size: 32px;\n}\n\n[data-dpr=\"3\"] #numbers {\n  font-size: 48px;\n}\n\n#more-btn {\n  position: absolute;\n  right: 0.8rem;\n  bottom: -0.14rem;\n  color: #5eb6d4;\n}\n\n[data-dpr=\"1\"] #more-btn {\n  font-size: 12px;\n}\n\n[data-dpr=\"2\"] #more-btn {\n  font-size: 24px;\n}\n\n[data-dpr=\"3\"] #more-btn {\n  font-size: 36px;\n}"],"sourceRoot":"webpack://"}]);
+	exports.push([module.id, "#participants[_v-30dfcaa6] {\n  position: relative;\n  height: 1.066667rem;\n  padding-top: 0.133333rem;\n  padding-bottom: 0.133333rem;\n  overflow: hidden;\n}\n\n#participants-head[_v-30dfcaa6] {\n  position: relative;\n  width: 8rem;\n  /*height: 80px;*/\n  /*border: 1px solid #413f3f;*/\n  left: -0.2rem;\n  top: 0.05rem;\n}\n\n#participants-head li[_v-30dfcaa6] {\n  position: relative;\n  width: 0.933333rem;\n  height: 0.933333rem;\n  border-radius: 0.466667rem;\n  display: inline-block;\n  margin-left: 0.26rem;\n  background-image: url(" + __webpack_require__(13) + ");\n  background-size: 100%;\n}\n\n#numbers[_v-30dfcaa6] {\n  position: absolute;\n  bottom: 0.4rem;\n  right: 0.4rem;\n}\n\n[data-dpr=\"1\"] #numbers[_v-30dfcaa6] {\n  font-size: 16px;\n}\n\n[data-dpr=\"2\"] #numbers[_v-30dfcaa6] {\n  font-size: 32px;\n}\n\n[data-dpr=\"3\"] #numbers[_v-30dfcaa6] {\n  font-size: 48px;\n}\n\n#more-btn[_v-30dfcaa6] {\n  position: absolute;\n  right: 0.8rem;\n  bottom: -0.14rem;\n  color: #5eb6d4;\n}\n\n[data-dpr=\"1\"] #more-btn[_v-30dfcaa6] {\n  font-size: 12px;\n}\n\n[data-dpr=\"2\"] #more-btn[_v-30dfcaa6] {\n  font-size: 24px;\n}\n\n[data-dpr=\"3\"] #more-btn[_v-30dfcaa6] {\n  font-size: 36px;\n}", "", {"version":3,"sources":["/./<input css 6>"],"names":[],"mappings":"AAAA;EACE,mBAAmB;EACnB,oBAAoB;EACpB,yBAAyB;EACzB,4BAA4B;EAC5B,iBAAiB;CAClB;;AAED;EACE,mBAAmB;EACnB,YAAY;EACZ,iBAAiB;EACjB,8BAA8B;EAC9B,cAAc;EACd,aAAa;CACd;;AAED;EACE,mBAAmB;EACnB,mBAAmB;EACnB,oBAAoB;EACpB,2BAA2B;EAC3B,sBAAsB;EACtB,qBAAqB;EACrB,gDAA0C;EAC1C,sBAAsB;CACvB;;AAED;EACE,mBAAmB;EACnB,eAAe;EACf,cAAc;CACf;;AAED;EACE,gBAAgB;CACjB;;AAED;EACE,gBAAgB;CACjB;;AAED;EACE,gBAAgB;CACjB;;AAED;EACE,mBAAmB;EACnB,cAAc;EACd,iBAAiB;EACjB,eAAe;CAChB;;AAED;EACE,gBAAgB;CACjB;;AAED;EACE,gBAAgB;CACjB;;AAED;EACE,gBAAgB;CACjB","file":"participants.vue","sourcesContent":["#participants {\n  position: relative;\n  height: 1.066667rem;\n  padding-top: 0.133333rem;\n  padding-bottom: 0.133333rem;\n  overflow: hidden;\n}\n\n#participants-head {\n  position: relative;\n  width: 8rem;\n  /*height: 80px;*/\n  /*border: 1px solid #413f3f;*/\n  left: -0.2rem;\n  top: 0.05rem;\n}\n\n#participants-head li {\n  position: relative;\n  width: 0.933333rem;\n  height: 0.933333rem;\n  border-radius: 0.466667rem;\n  display: inline-block;\n  margin-left: 0.26rem;\n  background-image: url(../images/head.png);\n  background-size: 100%;\n}\n\n#numbers {\n  position: absolute;\n  bottom: 0.4rem;\n  right: 0.4rem;\n}\n\n[data-dpr=\"1\"] #numbers {\n  font-size: 16px;\n}\n\n[data-dpr=\"2\"] #numbers {\n  font-size: 32px;\n}\n\n[data-dpr=\"3\"] #numbers {\n  font-size: 48px;\n}\n\n#more-btn {\n  position: absolute;\n  right: 0.8rem;\n  bottom: -0.14rem;\n  color: #5eb6d4;\n}\n\n[data-dpr=\"1\"] #more-btn {\n  font-size: 12px;\n}\n\n[data-dpr=\"2\"] #more-btn {\n  font-size: 24px;\n}\n\n[data-dpr=\"3\"] #more-btn {\n  font-size: 36px;\n}"],"sourceRoot":"webpack://"}]);
 	
 	// exports
 
@@ -940,11 +940,13 @@
 	  },
 	  methods: {
 	    showParticipants: function showParticipants(e) {
-	      var target = e.target;
+	      var target = e.target.parentNode;
+	      console.log(target);
 	      if (this.headClickCount % 2 != 0) {
-	        target.parentNode.style.height = "auto";
+	        target.style.height = "auto";
 	      } else {
-	        target.parentNode.style.height = "80px";
+	        target.style.height = "80px";
+	        alert(target.style.height);
 	      }
 	      this.headClickCount++;
 	    }
