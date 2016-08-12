@@ -619,7 +619,7 @@
 	
 	
 	// module
-	exports.push([module.id, "#phoneNumber .tipImg[_v-c118997e] {\n  background-image: url(" + __webpack_require__(19) + ");\n}", "", {"version":3,"sources":["/./<input css 5>"],"names":[],"mappings":"AAAA;EACE,gDAA2C;CAC5C","file":"phoneNumber.vue","sourcesContent":["#phoneNumber .tipImg {\n  background-image: url(../images/phone.png);\n}"],"sourceRoot":"webpack://"}]);
+	exports.push([module.id, "#phoneNumber .tipImg[_v-c118997e] {\n  background-image: url(" + __webpack_require__(19) + ");\n}", "", {"version":3,"sources":["/./<input css 3>"],"names":[],"mappings":"AAAA;EACE,gDAA2C;CAC5C","file":"phoneNumber.vue","sourcesContent":["#phoneNumber .tipImg {\n  background-image: url(../images/phone.png);\n}"],"sourceRoot":"webpack://"}]);
 	
 	// exports
 
@@ -719,7 +719,7 @@
 	
 	
 	// module
-	exports.push([module.id, "#time .tipImg[_v-1ca11553] {\n  background-image: url(" + __webpack_require__(25) + ");\n}", "", {"version":3,"sources":["/./<input css 4>"],"names":[],"mappings":"AAAA;EACE,gDAA0C;CAC3C","file":"time.vue","sourcesContent":["#time .tipImg {\n  background-image: url(../images/time.png);\n}"],"sourceRoot":"webpack://"}]);
+	exports.push([module.id, "#time .tipImg[_v-1ca11553] {\n  background-image: url(" + __webpack_require__(25) + ");\n}", "", {"version":3,"sources":["/./<input css 5>"],"names":[],"mappings":"AAAA;EACE,gDAA0C;CAC3C","file":"time.vue","sourcesContent":["#time .tipImg {\n  background-image: url(../images/time.png);\n}"],"sourceRoot":"webpack://"}]);
 	
 	// exports
 
@@ -819,7 +819,7 @@
 	
 	
 	// module
-	exports.push([module.id, "#location .tipImg[_v-22b8c73b] {\n  background-image: url(" + __webpack_require__(31) + ");\n}", "", {"version":3,"sources":["/./<input css 3>"],"names":[],"mappings":"AAAA;EACE,gDAA8C;CAC/C","file":"location.vue","sourcesContent":["#location .tipImg {\n  background-image: url(../images/location.png);\n}"],"sourceRoot":"webpack://"}]);
+	exports.push([module.id, "#location .tipImg[_v-22b8c73b] {\n  background-image: url(" + __webpack_require__(31) + ");\n}", "", {"version":3,"sources":["/./<input css 4>"],"names":[],"mappings":"AAAA;EACE,gDAA8C;CAC/C","file":"location.vue","sourcesContent":["#location .tipImg {\n  background-image: url(../images/location.png);\n}"],"sourceRoot":"webpack://"}]);
 	
 	// exports
 
@@ -941,12 +941,10 @@
 	  methods: {
 	    showParticipants: function showParticipants(e) {
 	      var target = e.target.parentNode;
-	      console.log(target);
 	      if (this.headClickCount % 2 != 0) {
 	        target.style.height = "auto";
 	      } else {
-	        target.style.height = "80px";
-	        alert(target.style.height);
+	        target.style.height = "1.06rem";
 	      }
 	      this.headClickCount++;
 	    }
@@ -1128,7 +1126,7 @@
 	
 	
 	// module
-	exports.push([module.id, "#commit[_v-75e27986] {\n  position: relative;\n  background-color: #ffffff;\n  margin-top: 0.266667rem;\n  overflow: hidden;\n  text-align: center;\n}\n\n#commit div[_v-75e27986] {\n  position: relative;\n  display: inline-block;\n  font-size: 0.426667rem;\n  text-align: center;\n  background-color: #46c9d8;\n  border-radius: 0.08rem;\n  color: #ffffff;\n  margin-top: 0.266667rem;\n  margin-left: 0.533333rem;\n  -webkit-transition: background-color 1s;\n}\n\n[data-dpr=\"1\"] #commit div[_v-75e27986] {\n  width: 120px;\n  padding: 10px 10px 10px 10px;\n}\n\n[data-dpr=\"2\"] #commit div[_v-75e27986] {\n  width: 240px;\n  padding: 20px 20px 20px 20px;\n}\n\n[data-dpr=\"3\"] #commit div[_v-75e27986] {\n  width: 360px;\n  padding: 30px 30px 30px 30px;\n}\n\n#commit div[_v-75e27986]:hover {\n  background-color: #33a5b2;\n}\n\n#commit #first-btn[_v-75e27986] {\n  margin-left: 0;\n}", "", {"version":3,"sources":["/./<input css 8>"],"names":[],"mappings":"AAAA;EACE,mBAAmB;EACnB,0BAA0B;EAC1B,wBAAwB;EACxB,iBAAiB;EACjB,mBAAmB;CACpB;;AAED;EACE,mBAAmB;EACnB,sBAAsB;EACtB,uBAAuB;EACvB,mBAAmB;EACnB,0BAA0B;EAC1B,uBAAuB;EACvB,eAAe;EACf,wBAAwB;EACxB,yBAAyB;EACzB,wCAAwC;CACzC;;AAED;EACE,aAAa;EACb,6BAA6B;CAC9B;;AAED;EACE,aAAa;EACb,6BAA6B;CAC9B;;AAED;EACE,aAAa;EACb,6BAA6B;CAC9B;;AAED;EACE,0BAA0B;CAC3B;;AAED;EACE,eAAe;CAChB","file":"commit.vue","sourcesContent":["#commit {\n  position: relative;\n  background-color: #ffffff;\n  margin-top: 0.266667rem;\n  overflow: hidden;\n  text-align: center;\n}\n\n#commit div {\n  position: relative;\n  display: inline-block;\n  font-size: 0.426667rem;\n  text-align: center;\n  background-color: #46c9d8;\n  border-radius: 0.08rem;\n  color: #ffffff;\n  margin-top: 0.266667rem;\n  margin-left: 0.533333rem;\n  -webkit-transition: background-color 1s;\n}\n\n[data-dpr=\"1\"] #commit div {\n  width: 120px;\n  padding: 10px 10px 10px 10px;\n}\n\n[data-dpr=\"2\"] #commit div {\n  width: 240px;\n  padding: 20px 20px 20px 20px;\n}\n\n[data-dpr=\"3\"] #commit div {\n  width: 360px;\n  padding: 30px 30px 30px 30px;\n}\n\n#commit div:hover {\n  background-color: #33a5b2;\n}\n\n#commit #first-btn {\n  margin-left: 0;\n}"],"sourceRoot":"webpack://"}]);
+	exports.push([module.id, "#commit[_v-75e27986] {\n  position: relative;\n  background-color: #ffffff;\n  overflow: hidden;\n  text-align: center;\n}\n\n[data-dpr=\"1\"] #commit[_v-75e27986] {\n  margin-top: 10px;\n}\n\n[data-dpr=\"2\"] #commit[_v-75e27986] {\n  margin-top: 20px;\n}\n\n[data-dpr=\"3\"] #commit[_v-75e27986] {\n  margin-top: 30px;\n}\n\n#commit div[_v-75e27986] {\n  position: relative;\n  display: inline-block;\n  text-align: center;\n  background-color: #46c9d8;\n  border-radius: 0.106667rem;\n  color: #ffffff;\n  -webkit-transition: background-color 1s;\n}\n\n[data-dpr=\"1\"] #commit div[_v-75e27986] {\n  width: 120px;\n  padding: 10px 10px 10px 10px;\n  font-size: 16px;\n  margin-top: 10px;\n  margin-left: 20px;\n}\n\n[data-dpr=\"2\"] #commit div[_v-75e27986] {\n  width: 240px;\n  padding: 20px 20px 20px 20px;\n  font-size: 32px;\n  margin-top: 20px;\n  margin-left: 40px;\n}\n\n[data-dpr=\"3\"] #commit div[_v-75e27986] {\n  width: 360px;\n  padding: 30px 30px 30px 30px;\n  font-size: 48px;\n  margin-top: 30px;\n  margin-left: 60px;\n}\n\n#commit div[_v-75e27986]:hover {\n  background-color: #33a5b2;\n}\n\n#commit #first-btn[_v-75e27986] {\n  margin-left: 0;\n}", "", {"version":3,"sources":["/./<input css 8>"],"names":[],"mappings":"AAAA;EACE,mBAAmB;EACnB,0BAA0B;EAC1B,iBAAiB;EACjB,mBAAmB;CACpB;;AAED;EACE,iBAAiB;CAClB;;AAED;EACE,iBAAiB;CAClB;;AAED;EACE,iBAAiB;CAClB;;AAED;EACE,mBAAmB;EACnB,sBAAsB;EACtB,mBAAmB;EACnB,0BAA0B;EAC1B,2BAA2B;EAC3B,eAAe;EACf,wCAAwC;CACzC;;AAED;EACE,aAAa;EACb,6BAA6B;EAC7B,gBAAgB;EAChB,iBAAiB;EACjB,kBAAkB;CACnB;;AAED;EACE,aAAa;EACb,6BAA6B;EAC7B,gBAAgB;EAChB,iBAAiB;EACjB,kBAAkB;CACnB;;AAED;EACE,aAAa;EACb,6BAA6B;EAC7B,gBAAgB;EAChB,iBAAiB;EACjB,kBAAkB;CACnB;;AAED;EACE,0BAA0B;CAC3B;;AAED;EACE,eAAe;CAChB","file":"commit.vue","sourcesContent":["#commit {\n  position: relative;\n  background-color: #ffffff;\n  overflow: hidden;\n  text-align: center;\n}\n\n[data-dpr=\"1\"] #commit {\n  margin-top: 10px;\n}\n\n[data-dpr=\"2\"] #commit {\n  margin-top: 20px;\n}\n\n[data-dpr=\"3\"] #commit {\n  margin-top: 30px;\n}\n\n#commit div {\n  position: relative;\n  display: inline-block;\n  text-align: center;\n  background-color: #46c9d8;\n  border-radius: 0.106667rem;\n  color: #ffffff;\n  -webkit-transition: background-color 1s;\n}\n\n[data-dpr=\"1\"] #commit div {\n  width: 120px;\n  padding: 10px 10px 10px 10px;\n  font-size: 16px;\n  margin-top: 10px;\n  margin-left: 20px;\n}\n\n[data-dpr=\"2\"] #commit div {\n  width: 240px;\n  padding: 20px 20px 20px 20px;\n  font-size: 32px;\n  margin-top: 20px;\n  margin-left: 40px;\n}\n\n[data-dpr=\"3\"] #commit div {\n  width: 360px;\n  padding: 30px 30px 30px 30px;\n  font-size: 48px;\n  margin-top: 30px;\n  margin-left: 60px;\n}\n\n#commit div:hover {\n  background-color: #33a5b2;\n}\n\n#commit #first-btn {\n  margin-left: 0;\n}"],"sourceRoot":"webpack://"}]);
 	
 	// exports
 
